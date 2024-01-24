@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import './Login.css'
+import { Link } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
@@ -59,6 +60,8 @@ function Login() {
           Login
         </button>
       </form>
+
+      <h4>Don't have an account? <Link to='/register' >Register</Link></h4>
     </div>
   );
 }

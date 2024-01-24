@@ -8,8 +8,10 @@
   font-weight: 400;
   font-size: medium;
   margin-bottom: 0;
-  color: #fff;
   position: fixed;
   bottom: 0;
  
+}
+#footer-content{
+  color: white;
 }

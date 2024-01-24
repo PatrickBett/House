@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Register.css';
+import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 function Register() {
@@ -94,7 +95,9 @@ function Register() {
                
       </form>
 
-      <h4 className='already-have-account'>Already have an Account?Login</h4>
+      <h4 className='already-have-account'>Already have an Account?
+      <Link to='/login' >Login</Link>
+      </h4>
       
     </div>
   );

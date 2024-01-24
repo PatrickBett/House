@@ -5,17 +5,29 @@ h2{
 p{
     margin: 30px;
     line-height: 30px;
-    background: rgba(237, 231, 231,0.3);
+    
 }
+/* .mission{
+    background-color: red;
+    border-radius: 50px; 
+    
+    
+} */
 .mission--vision{
     display: flex;
+    background-color: aliceblue;
     margin: 30px auto;
     padding: 30px;
     justify-content: space-between;   
 
 }
+.aboutus-content{
+    background-color: aliceblue;
+
+}
 h1{
     text-align: center;
+    
   
 }
 .mission--title{

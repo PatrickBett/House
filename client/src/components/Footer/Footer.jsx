@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div>
       <footer id="footer">
-        <p>
+        <p id="footer-content">
           &copy; {myName} {currentYear} . All rights reserved.
         </p>
       </footer>

@@ -25,3 +25,6 @@ li {
  color: white;
  text-decoration: none;
 }
+.nav-link:hover{
+  border-bottom: 4px solid burlywood;
+}
