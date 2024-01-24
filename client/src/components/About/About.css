@@ -1,0 +1,34 @@
+
+h2{
+    text-align: center;
+}
+p{
+    margin: 30px;
+    line-height: 30px;
+    background: rgba(237, 231, 231,0.3);
+}
+.mission--vision{
+    display: flex;
+    margin: 30px auto;
+    padding: 30px;
+    justify-content: space-between;   
+
+}
+h1{
+    text-align: center;
+  
+}
+.mission--title{
+  border-bottom: 3px solid salmon;
+  width: 200px;
+}
+.vision--title{
+     border-bottom: 3px solid salmon;
+  width: 200px;
+}
+.vision--title:hover{
+    color: burlywood;
+}
+.mission--title:hover{
+    color: burlywood;
+}
