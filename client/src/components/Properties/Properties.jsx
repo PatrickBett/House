@@ -40,9 +40,11 @@ function Properties() {
             <h4>Price: {property.price}</h4>
             {/* <h4>Description: {property.description}</h4> */}
             {/* Use Link to navigate to the Details component */}
-            <Link to={`/details/${property.id}`}  className="seemore--btn">
+            <button>
+              <Link to={`/details/${property.id}`}  className="seemore--btn">
               See More
             </Link>
+            </button>
             
           </div>
           
