@@ -3,7 +3,7 @@ from app.controllers.user_controller import create_user, get_users, get_user, up
 from app.controllers.house_controller import create_house, get_houses, get_house, update_house, delete_house
 from app.controllers.review_controller import create_review, get_reviews, get_review, update_review, delete_review
 from app.models.user_model import User
-# from flask_login import UserMixin, login_user, LoginManager,login_required,logout_user,current_user
+from flask_login import UserMixin, login_user, LoginManager,login_required,logout_user,current_user
 
 bp = Blueprint('bp', __name__)
 
@@ -67,7 +67,7 @@ def delete_user_route(id):
 
 # House routes
 
-# @login_required
+
 @bp.route('/house', methods=['POST'])
 
 def add_house_route():
