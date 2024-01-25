@@ -25,3 +25,41 @@
     padding-top: 40px;
     
 }
+#reviews{
+    background-color: rgb(74, 71, 71);
+    margin-top: 20px;
+    height: fit-content;
+}
+#comment-section{
+    width: 80%;
+    margin: 30px;
+    height: 200px;
+    font-size: large;
+    padding: 30px;
+    border-radius: 8px;
+}
+#comment-section-title{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.fetched-review-comment{
+    color: white;
+}
+.submit-review-Btn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.submit-review-Btn:hover{
+    background-color: brown;
+    border-radius: 8px;
+}
+.contact-details{
+    margin-bottom: 100px;
+}
+.contact-details h3{
+    text-align: center;
+}

@@ -97,24 +97,26 @@ function Details() {
               <h4>Location: {property.location}</h4>
               <h4>Price: {property.price}</h4>
               <h4>Description: {property.description}</h4>
+              {/* <Link to='https://wa.me/+254708103964'>Chat with us on Whatsup</Link> */}
             </div>
           </div>
         ))}
 
         <div id="reviews">
-          <h3>Reviews</h3>
-          <form onSubmit={handleReview}>
-            <textarea
+          <h1 id='comment-section-title'>Reviews</h1>
+          <form className="review-form" onSubmit={handleReview}>
+            <textarea id='comment-section' 
               placeholder="Write a Review"
               value={comment}
               onChange={(e) => setComment(e.target.value)}
             ></textarea>
-            <button type="submit">Submit</button>
+            <br/>
+            <button type="submit" className='submit-review-Btn'>Submit</button>
           </form>
           <div>
             {reviews.map((review) => (
               <div key={review.id}>
-                <p>{review.comment}</p>
+                <p className='fetched-review-comment'>{review.comment}</p>
                 {/* Add other review details as needed */}
               </div>
             ))}
