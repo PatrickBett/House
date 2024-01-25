@@ -97,7 +97,10 @@ function Details() {
               <h4>Location: {property.location}</h4>
               <h4>Price: {property.price}</h4>
               <h4>Description: {property.description}</h4>
-              {/* <Link to='https://wa.me/+254708103964'>Chat with us on Whatsup</Link> */}
+              <button className="book-house">
+                <a href='https://wa.me/+254708103964'>Book</a>
+              </button>
+              
             </div>
           </div>
         ))}

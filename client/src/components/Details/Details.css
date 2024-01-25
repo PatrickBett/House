@@ -32,6 +32,7 @@
 }
 #comment-section{
     width: 80%;
+    outline: none;
     margin: 30px;
     height: 200px;
     font-size: large;
@@ -62,4 +63,17 @@
 }
 .contact-details h3{
     text-align: center;
+}
+.book-house{
+    width: 80px;
+
+    font-size: large;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 220px;
+}
+.book-house:hover{
+    border: none;
+    background-color: orangered;
 }
