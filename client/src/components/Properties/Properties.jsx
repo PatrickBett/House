@@ -1,13 +1,17 @@
 //Properties.jsx
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+
 import "./Properties.css";
+import { Link } from 'react-router-dom';
+
 
 
 function Properties() {
   const [properties, setProperties] = useState([]);
   const [handle, setHandle] = useState([]);
+
+  
 
   useEffect(() => {
     const fetchData = async () => {

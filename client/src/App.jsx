@@ -16,6 +16,7 @@ function App() {
 
   return (
     <>
+   
       <BrowserRouter>
         <Header />
         <Routes>
@@ -28,6 +29,7 @@ function App() {
         </Routes>
         < Footer />
       </BrowserRouter>
+     
     </>
   );
 }
